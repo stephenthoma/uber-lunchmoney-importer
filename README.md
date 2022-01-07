@@ -3,8 +3,7 @@ A tool to import Uber transaction metadata into [Lunch Money](https://lunchmoney
 
 This tool attempts to match Lunch Money transactions with a Payee of 'Uber*' to Uber and Uber Eats transactions. 
 Transaction metadata is added to the Lunch Money notes field.
-Uber rides have the trip destination added.
-Uber Eats orders havethe restaurant name and items added.
+Uber rides have the trip destination added, and Uber Eats orders have the restaurant name and order items added.
 
 ## Matching methodology
 The tool matches Lunch Money transactions to Uber transactions by referencing cost and date.
